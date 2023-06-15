@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: irene;
+    src: url(font/Oswald-VariableFont_wght.ttf);
+} 
+@font-face {
+    font-family: worth;
+    src: url(font/Seventeen.otf);
+}
+    
+*{
+    box-sizing: border-box;
+    font-family: irene;
+    padding: 0;
+    margin: 0;
+
+}
+#header{
+    width: 100%;
+    height: 60px;
+    position: -webkit-sticky;
+    background-color: rgb(36, 36, 36);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+#logo{
+    width:20%;
+    height: 60px;
+    float: left;
+}
+#logo img{
+    width: 22%;
+    float: left;
+}
+#logo h1{
+    width: 50%;
+    float: left;
+    margin-top: 6px;
+}
+nav{
+    width: 80%;
+    height: 60px;
+    float: left;
+    padding: 0;
+
+}
+nav > ul{
+    width: 70%;
+    height: 60px;
+    margin: 0;
+    float:right;
+    padding-left: 0;
+    
+
+}
+nav > ul > li{
+    float: left;
+    list-style: none;
+    width: 16%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 18px;
+    margin-right: 1%;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255) ;
+    display: block;
+    height: 60px;
+}
+nav ul li a:hover{
+    color: 	#A5D6A7;
+    transition: 0.4s;
+}

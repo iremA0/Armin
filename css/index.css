@@ -1,0 +1,276 @@
+/* Background image and text*/
+#image-conteiner{
+  width: 100%;
+  height: 600px;
+  background-image: url(image/snow.jpg);
+  background-size: cover;
+}
+#text{
+  width: 80%;
+  height: 100%;
+  float: left;
+
+}
+#text h1{
+  color: rgb(0, 0, 0);
+  font-size: 42px;
+  display: inline-block;
+  margin-top: 15%;
+  margin-left: 4%;
+  font-family: worth;
+  font-weight: 300;
+
+}
+#text p{
+  color: rgb(51, 51, 51);
+  margin-left: 4%;
+  margin-top: 1%;
+  font-size: 18px;
+}
+.btn{
+  background-color: rgb(36, 36, 36);
+  color: white;
+  width: 25%;
+  height: 7%;
+  font-size: 100%;
+  border-radius: 8px;
+  margin-left: 4%;
+  margin-top: 4%;
+}
+.btn:focus{
+  color: #A5D6A7;
+}
+
+
+/* abaut us image text and icon*/
+#about-us{
+  width: 100%;
+  height: 570px;
+  padding-top:0;
+}
+#about-us-image{
+  width: 40%;
+  height:570px;
+  float: left;
+  background-size: cover;
+  background-image: url(image/architecture-7947724_1280.jpg);
+}
+#about-us-text{
+  width: 58%;
+  height:360px;
+  float: right;
+  background-color: rgba(255, 255, 255, 0.438);
+  margin-left: 2%;
+}
+#about-us-text h1{
+  margin-left: 1%;
+  font-size: 32px;
+  margin-top: 15px;
+}
+#about-us-text hr{
+  width: 97%;
+  margin-left: 1%;
+  margin-bottom: 40px;
+  margin-top: 15px;
+  height: 3px;
+  background-color: black;
+}
+section p{
+  margin: 12px;
+}
+#about-us-goals{
+  width: 58%;
+  height:200px;
+  float: right;
+  margin-left: 2%;
+  margin-top: 10px;
+
+}
+.goals{
+  width: 30%;
+  height: 100%;
+
+  float: left;
+  margin-right: 5%;
+}
+.goals img{
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 15px;
+}
+.goals p{
+  font-size: 28px;
+  text-align: center;
+}
+
+/* teams contact info and photos*/
+#teams{
+  width: 100%;
+  height: 670px;
+  padding-top: 50px;
+}
+.person{
+  width: 20%;
+  height:450px;
+  background-color: rgb(255, 255, 255);
+  margin-left:4% ;
+  float: left;
+  box-shadow: 5px 5px 18px rgba(59, 59, 59, 0.575);
+}
+.image{
+  width: 100%;
+}
+.image img{
+  width: 100%;
+}
+.socialMedia{
+  background-color: rgb(255, 255, 255);
+  width: 60%;
+  height: 12%;
+  position: relative;
+  margin-top: -52px;
+  margin-left: 20%;
+  border-radius: 5px;
+}
+.mediaicon{
+  width: 25%;
+  height: 65%;
+  background-color: rgb(32, 32, 32);
+  margin-left: 5%;
+  display: block;
+  margin-top: 7%;
+  float: left;
+  border-radius: 5px;
+}
+.mediaicon a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-top: 10%;
+  border-radius: 5px;
+}
+.mediaicon a:hover{
+  background-color: #A5D6A7;
+}
+.icon{
+  margin: 20%;
+}
+#teams > h1{
+  margin-left: 4%;
+  margin-bottom: 15px;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+}
+#teams hr{
+  width: 92%;
+  margin-left: 4%;
+  margin-bottom: 40px;
+  height: 3px;
+  background-color: black;
+}
+.nameAndJob{
+  width: 100%;
+  height: 180px;
+}
+.nameAndJob h1{
+  text-align: center;
+}
+.nameAndJob h4{
+  text-align: center;
+  color: rgb(33, 33, 33);
+}
+
+/*communication form*/
+
+#communication{
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+#bgimage{
+  width: 100%;
+  height: 100%;
+  background-image: url(image/philodendron-7960228.jpg);
+  background-size: cover;
+  opacity: 0.7;
+}
+#black{
+  width: 100%;
+  height: 100%;
+  background-color:rgba(0, 0, 0, 0.432); 
+}
+#comm-form{
+  width: 70%;
+  height: 400px;
+  background-color: rgb(32,32,32);
+  position: absolute;
+  margin-top: -490px;
+  margin-left:15% ;
+}
+#comm-form > h1{
+  margin-left: 4%;
+  margin-bottom: 15px;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  margin-top: 15px;
+}
+#comm-form hr{
+  width: 92%;
+  margin-left: 4%;
+  margin-bottom: 40px;
+  height: 3px;
+  background-color: rgba(255, 255, 255, 0.781);
+  border-color: rgb(255, 255, 255);
+}
+#form{
+  width: 55%;
+  height: 291px;
+  float: left;
+
+}
+.txt{
+  width: 40%;
+  height: 28px;
+  margin-left: 2%;
+  border-radius: 5px;
+  border-color: white;
+}
+.txt:focus{
+background-color: #A5D6A7;
+border-color: rgb(32, 32, 32);
+}
+#txta:focus{
+  background-color: #A5D6A7;
+  border-color: rgb(32, 32, 32);
+  }
+.one{
+  margin-left: 6%;
+}
+.two{
+  margin-top: 10px;
+}
+#txta{
+  width: 83%;
+  height: 100px;
+  margin-left: 6%;
+  margin-top: 10px;
+  border-radius: 5px;
+  border-color: white;
+}
+.btn{
+  width: 20%;
+  height: 28px;
+  margin-left: 6%;
+  margin-top: 10px;
+}
+
+.btn:hover{
+  color: #A5D6A7;
+}
+#address{
+  width:39% ;
+  height: 291px;
+  background-color: rgb(0, 0, 0);
+  float: left;
+}
+
