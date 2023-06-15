@@ -270,7 +270,17 @@ border-color: rgb(32, 32, 32);
 #address{
   width:39% ;
   height: 291px;
-  background-color: rgb(0, 0, 0);
   float: left;
+}
+#address h5{
+  color: white;
+  margin-bottom: 3%;
+}
+.comm-icon{
+  margin-right: 3%;
+}
+#address h5 a{
+  float: left;
+  margin-right: 4%;
 }
 
