@@ -1,0 +1,57 @@
+#container{
+    width: 100%;
+}
+.cont{
+    width: 100%;
+    
+}
+.cont > h1{
+    margin-top: 2%;
+    margin-left: 2%;
+    color: #000000;
+}
+.cont hr{
+    width: 95%;
+    margin-top: 1%;
+    margin-left: 2%;
+    border: 1px solid black;
+}
+.packet{
+    width: 20%;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 2%;
+    margin-right: 3%;
+    float: left;
+    overflow: hidden;
+    border-radius: 5%;
+    background-color: rgba(165, 214, 167, 0.7);
+}
+.packet a{
+    color: black;
+}
+.packet img{
+    width: 100%;
+}
+.clr{
+    width:5% ;
+    height: 8%;
+    background-color: rgb(128, 199, 114);
+    position: absolute;
+    margin-left: 1%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+.clr p{
+    text-align: center;
+}
+.packet h3{
+    margin-left: 2%;
+}
+.packet p{
+    margin-left: 2%;
+}
+.packet a h1{
+    margin-left: 2%;
+    color: rgb(4, 93, 165);
+}
