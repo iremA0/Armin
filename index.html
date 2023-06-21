@@ -9,25 +9,45 @@
     <link rel="stylesheet" href="css/index.css ">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/8d06f60563.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 <body>
-    <section id="header">
-        <div id="logo">
-            <a href="index.html">
-                <img src="img/zyro-image.png" alt="">
-                <h1>Armin</h1>
-            </a>    
-        </div>
-        <nav>
-            <ul>
-              <li> <a href="#image-conteiner">Anasayfa</a> </li>
-                <li> <a href="#about-us">Hakkımızda</a> </li>
-                <li style="width: 12%;"> <a href="#teams">Ekip</a> </li>
-                <li style="width:12%;"> <a href="#">Paketler</a></li>
-                <li> <a href="#communication">İletişim</a> </li>
-                <li style="width: 16%; margin-right: 0;"> <a href="signin.html">Kayıt Ol/Giriş Yap</a> </li>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+         
+        <div class="container-fluid">
+           <a class="navbar-brand" href="#">
+            <img src="img/zyro-image.png" alt="" width="30">
+          </a>
+          <a class="navbar-brand" href="index.html">Armin</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left: 48%;" >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Anasayfa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-us">Hakkımızda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#teams">Ekip</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="packets.html">Paketler</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#communication">İletişim</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="signin.html">Kayıt Ol/Giriş Yap</a>
+              </li>
             </ul>
-        </nav>
-    </section>
+          </div>
+        </div>
+      </nav>
+    </header>
 
     <section id="image-conteiner">
       <div id="text">
@@ -38,112 +58,135 @@
         
     </section>
 
-    <section id="about-us">
-      <div id="about-us-image">
-      </div>
-      <div id="about-us-text">
-        <h1>Hakkımızda</h1>
-        <hr>
-        <p style="margin-top: 0;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad molestiae repellat aliquam, assumenda labore, suscipit similique neque quis dicta cum reprehenderit alias sapiente commodi necessitatibus harum laborum veritatis consequatur quidem nam sunt voluptatibus at mollitia, minus nulla. Earum, totam? Commodi optio labore non eius! Eveniet quia est voluptates. Praesentium blanditiis fugiat quibusdam.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero sed, repellendus temporibus enim obcaecati non fuga quasi asperiores saepe nam ab minima expedita laborum cumque magni architecto doloribus ipsam officiis velit sunt. Aspernatur fugiat repellat vitae hic aliquid a voluptate similique molestias, nesciunt, mollitia voluptates inventore eius fuga porro et eaque velit possimus minima atque, architecto libero quasi esse numquam quae. Quaerat ipsam, voluptatum esse itaque sunt deleniti. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium quod minima perspiciatis voluptatum beatae? Corrupti repellendus eos rem officia voluptatem voluptatum, omnis, iusto perferendis ratione aliquid, quos vitae. Nisi, praesentium! Inventore culpa doloremque excepturi aut.</p>
-      </div>  
-      <div id="about-us-goals">
-        <div class="goals"> <img src="img/correct.png" alt="">
-          <p>Lorem, ipsum dolor.</p>
-        
-        </div>
-        <div class="goals"> <img src="img/diamond.png" alt="">
-          <p>Lorem, ipsum dolor.</p></div>
-        <div class="goals" style="margin-right: 0;"><img src="img/lightning.png" alt="">
-          <p>Lorem, ipsum dolor.</p>
-        </div>
-      </div>
-
-    </section>
-
-    <section id="teams">
-      <h1>Ekibimiz</h1>
-      <hr>
-       
-      <!--Person1-->
-      <div class="person">
-        <div class="image"><img src="img/woman-7895953_1280.jpg" alt=""></div>
-        <div class="socialMedia" >
-          <div class="mediaicon" style="margin-left: 7%;"> <a href="#"> <i class="fa-solid fa-phone fa-xl icon" style="color: #ffffff;"></i></a></div>
-          <div class="mediaicon"> <a href="#"><i class="fa-solid fa-envelope fa-xl icon" style="color: #ffffff;"></i></a> </div>
-          <div class="mediaicon"> <a href="#"><i class="fa-brands fa-instagram fa-xl icon" style="color: #ffffff; margin: 23%;"></i></a> </div>
-        </div>
-        <div class="nameAndJob">
-          <h1>Nalan Yıldız</h1>
-          <h4>Yazılım Mühendisi</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iusto doloremque quidem ipsum porro dolorem!</p>
-        </div>
-      </div>
-       
-      <!--Person2-->
-      <div class="person">
-        <div class="image"><img src="img/woman-7895953_1280.jpg" alt=""></div>
-        <div class="socialMedia" >
-          <div class="mediaicon" style="margin-left: 7%;"> <a href="#"> <i class="fa-solid fa-phone fa-xl icon" style="color: #ffffff;"></i></a></div>
-          <div class="mediaicon"> <a href="#"><i class="fa-solid fa-envelope fa-xl icon" style="color: #ffffff;"></i></a> </div>
-          <div class="mediaicon"> <a href="#"><i class="fa-brands fa-instagram fa-xl icon" style="color: #ffffff; margin: 23%;"></i></a> </div>
-        </div>
-        <div class="nameAndJob">
-          <h1>Nalan Yıldız</h1>
-          <h4>Yazılım Mühendisi</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iusto doloremque quidem ipsum porro dolorem!</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5 ">
+            <img src="img/architecture-7947724_1280.jpg" style="width: 100%;" alt="">
+          </div>
+          <div class="col">
+            <div id="about-us-text">
+              <h1 class="mt-2">Hakkımızda</h1>
+              <hr class="mt-3 mb-5">
+              <p style="margin-top: 0;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad molestiae repellat aliquam, assumenda labore, suscipit similique neque quis dicta cum reprehenderit alias sapiente commodi necessitatibus harum laborum veritatis consequatur quidem nam sunt voluptatibus at mollitia, minus nulla. Earum, totam? Commodi optio labore non eius! Eveniet quia est voluptates. Praesentium blanditiis fugiat quibusdam.</p>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero sed, repellendus temporibus enim obcaecati non fuga quasi asperiores saepe nam ab minima expedita laborum cumque magni architecto doloribus ipsam officiis velit sunt. Aspernatur fugiat repellat vitae hic aliquid a voluptate similique molestias, nesciunt, mollitia voluptates inventore eius fuga porro et eaque velit possimus minima atque, architecto libero quasi esse numquam quae. Quaerat ipsam, voluptatum esse itaque sunt deleniti. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium quod minima perspiciatis voluptatum beatae? Corrupti repellendus eos rem officia voluptatem voluptatum, omnis, iusto perferendis ratione aliquid, quos vitae. Nisi, praesentium! Inventore culpa doloremque excepturi aut.</p>
+            </div>  
+            <div id="about-us-goals" class="mt-2">
+              <div class="goals"> <img src="img/correct.png" alt="">
+                <p>Lorem, ipsum dolor.</p>
+              
+              </div>
+              <div class="goals"> <img src="img/diamond.png" alt="">
+                <p>Lorem, ipsum dolor.</p></div>
+              <div class="goals" style="margin-right: 0;"><img src="img/lightning.png" alt="">
+                <p>Lorem, ipsum dolor.</p>
+              </div>
+            </div>
+      
+          </div>
         </div>
       </div>
 
-      <!--Person3-->
-      <div class="person">
-        <div class="image"><img src="img/woman-7895953_1280.jpg" alt=""></div>
-        <div class="socialMedia" >
-          <div class="mediaicon" style="margin-left: 7%;"> <a href="#"> <i class="fa-solid fa-phone fa-xl icon" style="color: #ffffff;"></i></a></div>
-          <div class="mediaicon"> <a href="#"><i class="fa-solid fa-envelope fa-xl icon" style="color: #ffffff;"></i></a> </div>
-          <div class="mediaicon"> <a href="#"><i class="fa-brands fa-instagram fa-xl icon" style="color: #ffffff; margin: 23%;"></i></a> </div>
+      <div class="container">
+
+        <div class="row">
+          <div class="col">
+            <h1>Ekibimiz</h1>
+            <hr>
+          </div>
         </div>
-        <div class="nameAndJob">
-          <h1>Nalan Yıldız</h1>
-          <h4>Yazılım Mühendisi</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iusto doloremque quidem ipsum porro dolorem!</p>
+
+        <div class="row">
+          <div class="col-sm-3 mt-3">
+            <!--Person 1-->
+            <div class="card">
+              <img src="img/woman-7895953_1280.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Nalan Yıldız</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, fugiat.</p>
+              </div>
+              <div class="card-body">
+                <a href="#" class="card-link"><i class="fa-solid fa-phone fa-xl icon" style="color: #353535; margin-left: 25%;"></i></a>
+                <a href="#" class="card-link"><i class="fa-solid fa-envelope fa-xl icon" style="color: #353535;"></i></a>
+                <a href="#" class="card-link"><i class="fa-brands fa-instagram fa-xl icon" style="color: #353535;"></i> </a>
+              </div>
+            </div>
+          
+
+          </div>
+
+          <div class="col-sm-3 mt-3">
+            <!--Person 2-->
+            <div class="card">
+              <img src="img/woman-7895953_1280.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Nalan Yıldız</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, fugiat.</p>
+              </div>
+              <div class="card-body">
+                <a href="#" class="card-link"><i class="fa-solid fa-phone fa-xl icon" style="color: #353535; margin-left: 25%;"></i></a>
+                <a href="#" class="card-link"><i class="fa-solid fa-envelope fa-xl icon" style="color: #353535;"></i></a>
+                <a href="#" class="card-link"><i class="fa-brands fa-instagram fa-xl icon" style="color: #353535;"></i> </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3 mt-3">
+            <!--Person 3-->
+            <div class="card">
+              <img src="img/woman-7895953_1280.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Nalan Yıldız</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, fugiat.</p>
+              </div>
+              <div class="card-body">
+                <a href="#" class="card-link"><i class="fa-solid fa-phone fa-xl icon" style="color: #353535; margin-left: 25%;"></i></a>
+                <a href="#" class="card-link"><i class="fa-solid fa-envelope fa-xl icon" style="color: #353535;"></i></a>
+                <a href="#" class="card-link"><i class="fa-brands fa-instagram fa-xl icon" style="color: #353535;"></i> </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3 mt-3" height="500px">
+            <!--Person 4-->
+            <div class="card">
+              <img src="img/woman-7895953_1280.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Nalan Yıldız</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, fugiat.</p>
+              </div>
+              <div class="card-body">
+                <a href="#" class="card-link"><i class="fa-solid fa-phone fa-xl icon" style="color: #353535; margin-left: 25%;"></i></a>
+                <a href="#" class="card-link"><i class="fa-solid fa-envelope fa-xl icon" style="color: #353535;"></i></a>
+                <a href="#" class="card-link"><i class="fa-brands fa-instagram fa-xl icon" style="color: #353535;"></i> </a>
+              </div>
+            </div>
         </div>
+
+      </div>
       </div>
 
-      <!--Person4-->
-      <div class="person">
-        <div class="image"><img src="img/woman-7895953_1280.jpg" alt=""></div>
-        <div class="socialMedia" >
-          <div class="mediaicon" style="margin-left: 7%;"> <a href="#"> <i class="fa-solid fa-phone fa-xl icon" style="color: #ffffff;"></i></a></div>
-          <div class="mediaicon"> <a href="#"><i class="fa-solid fa-envelope fa-xl icon" style="color: #ffffff;"></i></a> </div>
-          <div class="mediaicon"> <a href="#"><i class="fa-brands fa-instagram fa-xl icon" style="color: #ffffff; margin: 23%;"></i></a> </div>
-        </div>
-        <div class="nameAndJob">
-          <h1>Nalan Yıldız</h1>
-          <h4>Yazılım Mühendisi</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iusto doloremque quidem ipsum porro dolorem!</p>
-        </div>
-      </div>
-    </section>
+      <div class="container-fluid communication">
+        <div class="row">
+          <div class="col-8">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputName" class="form-label mt-5" style="color: white;">İsim Soyisim</label>
+                <input type="text" class="form-control" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label" style="color: white;">E-Posta</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label" style="color: white;">Mesaj</label>
+                <textarea name="message" id="message" style="width: 100%; height:100px;"></textarea>
+              </div>
+              <button type="submit" class="btn btn-outline-secondary mb-5">Gönder</button>>
+            </form>
+          </div>
 
-    <section id="communication">
-        <div id="bgimage">
-          <div id="black"></div>
-        </div>
-        <div id="comm-form">
-          <h1>İletişim Formu</h1>
-          <hr>
-          <form action="#" method="post" id="form">
-            <input class="txt one" type="text" placeholder="Ad Soyad" >
-            <input class="txt" type="tel" placeholder="Telefon Numarası" >
-            <input class="txt one two" type="email" placeholder="E Mail" >
-            <input class="txt two" type="text" placeholder="Konu Başlığı" >
-            <textarea name="message" id="txta" placeholder="Mesaj"></textarea>
-            <button type="submit" class="btn" >Gönder</button>
-            <button type="reset"  class="btn" style="margin-left: 2%;">Temizle</button>
-          </form>
-          <div id="address">
-            <h5><i class="fa-solid fa-location-dot fa-lg comm-icon" style="color: #ffffff;"></i> Çiçek Sokak no 14/3 Seyhan/Adana</h5>
+          <div class="col">
+            <h5 class="mt-5"><i class="fa-solid fa-location-dot fa-lg comm-icon" style="color: #ffffff;"></i> Çiçek Sokak no 14/3 Seyhan/Adana</h5>
             <h5><i class="fa-solid fa-phone fa-lg comm-icon" style="color: #ffffff;"></i> Bizi Arayabilirsiniz: 444 444 44 44</h5>
             <h5><i class="fa-solid fa-envelope fa-lg comm-icon" style="color: #ffffff;"></i> E-Mail Adresimiz: armin@gmail.com</h5>
             <h5>Sosyal Medya Hesaplarımız</h5>
@@ -151,68 +194,87 @@
              <a href="#"> <i class="fa-brands fa-facebook   fa-xl comm-icon" style="color: #ffffff;"></i></a>
              <a href="#"> <i class="fa-brands fa-instagram  fa-xl comm-icon" style="color: #ffffff;"></i></a>
              <a href="#"> <i class="fa-brands fa-twitter    fa-xl comm-icon" style="color: #ffffff;"></i></a>
-             <a href="#"><i class="fa-brands fa-youtube    fa-xl comm-icon" style="color: #ffffff;"></i></a> 
+             <a href="#"> <i class="fa-brands fa-youtube    fa-xl comm-icon" style="color: #ffffff;"></i></a> 
 
             
             
             </h5>
 
-            
           </div>
+          
         </div>
-    </section>
+          </div>
+
 
     <footer>
-      <div id="footer-left">
-        <div id="logoandname">
-          <img src="img/zyro-image.png" alt="">
-          <h1>Armin</h1>
-        </div>
-        <div id="left-bottom">
-          <h5>
-            <a href="#"> <i class="fa-brands fa-facebook   fa-xl footer-icon" style="color: #202020;"></i></a>
-            <a href="#"> <i class="fa-brands fa-instagram  fa-xl footer-icon" style="color: #202020;"></i></a>
-            <a href="#"> <i class="fa-brands fa-twitter    fa-xl footer-icon" style="color: #202020;"></i></a>
-            <a href="#"> <i class="fa-brands fa-youtube    fa-xl footer-icon" style="color: #202020;"></i></a> 
-          </h5><br>
-          <h4><i class="fa-solid fa-copyright fa-lg" style="color: #585858;"></i> Property of İrem</h4>
-        </div>  
-      </div>
-      <div id="list">
-        <div class="col-list">
-          <h3>List Name</h3>
-          <hr>
-          <ul>
-            <li><a href="#">Lorem ipsum dolor sit.</a></li>
-            <li><a href="#">Lorem ipsum dolor sit.</a></li>
-            <li><a href="#">Lorem ipsum dolor sit.</a></li>
-            <li><a href="#">Lorem ipsum dolor sit.</a></li>
-          </ul>
+      <div class="container-fluid">
+        <div class="row">
+
+          <div class="col-sm-3">
+            <div id="footer-left">
+              <div id="logoandname">
+                <img src="img/zyro-image.png" alt="">
+                <h1>Armin</h1>
+              </div>
+              <div id="left-bottom">
+                <h5>
+                  <a href="#"> <i class="fa-brands fa-facebook   fa-xl footer-icon" style="color: #202020;"></i></a>
+                  <a href="#"> <i class="fa-brands fa-instagram  fa-xl footer-icon" style="color: #202020;"></i></a>
+                  <a href="#"> <i class="fa-brands fa-twitter    fa-xl footer-icon" style="color: #202020;"></i></a>
+                  <a href="#"> <i class="fa-brands fa-youtube    fa-xl footer-icon" style="color: #202020;"></i></a> 
+                </h5><br>
+                <h4><i class="fa-solid fa-copyright fa-lg" style="color: #585858;"></i> Property of İrem</h4>
+              </div>  
+            </div>
+          </div>
+          
+          <div class="col-sm-3">
+              <div class="col-list">
+                <h3>List Name</h3>
+                <hr>
+                <ul>
+                  <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                  <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                  <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                  <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                </ul>
+              </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="col-list">
+              <h3>List Name</h3>
+              <hr>
+              <ul>
+                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+              </ul>
+            </div>
         </div>
 
-        <div class="col-list">
-          <h3>List Name</h3>
-          <hr>
-          <ul>
-            <li><a href="#">Lorem ipsum dolor sit.</a></li>
-            <li><a href="#">Lorem ipsum dolor sit.</a></li>
-            <li><a href="#">Lorem ipsum dolor sit.</a></li>
-            <li><a href="#">Lorem ipsum dolor sit.</a></li>
-          </ul>
-        </div>
+        <div class="col-sm-3">
+          <div class="col-list">
+            <h3>List Name</h3>
+            <hr>
+            <ul>
+              <li><a href="#">Lorem ipsum dolor sit.</a></li>
+              <li><a href="#">Lorem ipsum dolor sit.</a></li>
+              <li><a href="#">Lorem ipsum dolor sit.</a></li>
+              <li><a href="#">Lorem ipsum dolor sit.</a></li>
+            </ul>
+          </div>
+      </div>
 
-        <div class="col-list">
-          <h3>List Name</h3>
-          <hr>
-          <ul>
-            <li><a href="#">Lorem ipsum dolor sit.</a></li>
-            <li><a href="#">Lorem ipsum dolor sit.</a></li>
-            <li><a href="#">Lorem ipsum dolor sit.</a></li>
-            <li><a href="#">Lorem ipsum dolor sit.</a></li>
-          </ul>
+
         </div>
       </div>
+      
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     
 </body>
 </html>
